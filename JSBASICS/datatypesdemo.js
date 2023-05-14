@@ -17,3 +17,11 @@ var user = {
     age: 24
 };
 console.log("Details of the user is",user);
+
+let b = 10;
+b = null;
+//Now it become the Object 
+console.log(typeof b);
+//And see the Null type is also object  that's really important 
+console.log(typeof null); 
+//Historical Mistake in JS 

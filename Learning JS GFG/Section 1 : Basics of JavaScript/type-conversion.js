@@ -21,4 +21,12 @@ console.log(typeof d);
 
 
 // Boolean Conversion 
-console.log(Boolean(a));
+const bk = null;
+const empty = "";
+const num = -2;
+console.log(a , Boolean(a));
+console.log(bk, Boolean(bk));
+console.log(empty , Boolean(empty));
+console.log(num , Boolean(num));
+
+
